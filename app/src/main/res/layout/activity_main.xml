@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="evan.chen.app.componentsample.MainActivity">
+
+    <evan.chen.app.componentsample.NumberSelect
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_select"
+        app:default_value="3"
+        app:min_value="0"
+        app:max_value="20"
+        />
+</android.support.constraint.ConstraintLayout>
